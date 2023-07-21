@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  @apply text-blue-500;
+}
+p {
+  @apply text-xs
+}
+ul {
+  @apply text-slate-700
+}
+
+ul li span{
+  @apply text-xs flex items-center
+}
+
+button {
+  @apply py-1 px-2 my-1 mb-4 w-full rounded text-white;
+}
+
+input {
+  @apply border border-slate-600 py-1 px-2 my-1 outline-none rounded;
+}
+
+h1 {
+  @apply text-3xl text-red-600 mb-4;
+}
+
+section {
+  @apply h-screen flex flex-col justify-center items-center;
+}
+
+form {
+  @apply flex flex-col items-center border border-slate-600 p-4 relative h-screen rounded my-8;
+}
+
+.password-strength-indicator {
+  @apply text-slate-700;
+}
+
+.show-indicator {
+  display: block;
+}
+
+.hide-indicator {
+  display: none;
+}
+
+.pass-green {
+  @apply text-green-600
+}
+
+.pass-red {
+  @apply text-red-600
+}
+/* 
+button[disabled="true"] {
+  @apply bg-slate-500
+  opacity: 0.5 !important;
+  cursor: not-allowed !important;
+} */
+
+.btn-grey {
+  @apply bg-slate-400 cursor-not-allowed
+}
+
+.btn-blue {
+  @apply bg-blue-600 cursor-pointer
+}
+
+.login {
+  @apply text-blue-600
+}

@@ -1,0 +1,8 @@
+// Check Lower & Uppercase
+match(/([a-z].*[A-Z])|([A-Z].*[a-z])/)
+
+//Check for Numbers
+match(/([0-9])/)
+
+//Check for Special Characters
+match(/([!,@,#,$,%,^,&,*,?,_,~])/)
